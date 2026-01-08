@@ -7,7 +7,7 @@ const experiences = [
     company: 'Jnana Inventive',
     period: '4 Months (Completed)',
     description: 'Worked on real-time projects including Africa Duty Free (E-commerce Website) and BestRunners (Static Charity Website), focusing on responsive UI development and practical frontend implementation using modern web technologies.',
-    technologies: ['React', 'Node.js', 'expressjs', 'mongoDB']
+    technologies: ['Reactjs', 'Node.js', 'expressjs', 'mongoDB']
   },
 ];
 

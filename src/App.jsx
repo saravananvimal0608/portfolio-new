@@ -62,7 +62,7 @@ function App() {
                 className="flex justify-center lg:justify-start gap-3 flex-wrap"
               >
                 <span className="px-4 py-2 bg-purple-500/20 border border-purple-500/40 rounded-full text-purple-300">
-                  React
+                  Reactjs
                 </span>
                 <span className="px-4 py-2 bg-purple-500/20 border border-purple-500/40 rounded-full text-purple-300">
                   Node.js
