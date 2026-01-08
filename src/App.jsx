@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 // import Strengths from './components/Strengths';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
+import profileImage from './assets/Profile-img.jpeg'
 
 function App() {
   return (
@@ -78,7 +79,7 @@ function App() {
             >
               <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-purple-500/30 shadow-2xl">
                 <img
-                  src='src/assets/Profile-img.jpeg'
+                  src={profileImage}
                   alt="Saravanan Developer"
                   className="w-full  object-cover"
                 />
