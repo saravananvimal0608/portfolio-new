@@ -12,7 +12,6 @@ import Contact from './components/Contact';
 import profileImage from './assets/Profile-img.jpeg';
 import resume from './assets/SARAVANAN-VIMAL-RESUME.pdf'
 import Antigravity from './components/Antigravity';
-import '../../project/src/index.css'
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#4E2A4F] via-[#2D1E2F] to-black relative">
