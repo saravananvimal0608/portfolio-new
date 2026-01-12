@@ -134,7 +134,7 @@ function App() {
 
         <footer className="border-t border-purple-800/30 py-8 text-center">
           <p className="text-gray-500 mt-2">
-            &copy; 2025 Saravanan . All rights reserved.
+            &copy; 2026 Saravanan . All rights reserved.
           </p>
         </footer>
       </div>
