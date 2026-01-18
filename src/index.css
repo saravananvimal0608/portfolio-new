@@ -14,4 +14,34 @@
   .text-glow {
     text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
   }
+  
+  .bg-gradient-radial {
+    background: radial-gradient(var(--tw-gradient-stops));
+  }
+}
+
+.title::after {
+  content: "MERN STACK DEVELOPER";
+  animation: words 6s infinite;
+  font-weight: 600;
+}
+
+@keyframes words {
+  0%,
+  33% {
+    content: "MERN STACK DEVELOPER";
+    color: #F5C542; /* Warm Gold */
+  }
+
+  34%,
+  66% {
+    content: "REACT-JS DEVELOPER";
+    color: #4FD1C5; /* Teal / Cyan */
+  }
+
+  67%,
+  100% {
+    content: "EXPRESS-JS DEVELOPER";
+    color: #C084FC; /* Soft Violet */
+  }
 }

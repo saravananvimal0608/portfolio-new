@@ -6,8 +6,8 @@ const projects = [
     title: 'E-Commerce Platform',
     description: 'Developed a responsive e-commerce web application with product listing, user authentication, and cart functionality. Focused on building a clean UI and smooth user experience using modern full-stack technologies.',
     technologies: ['ReactJS', 'Express.js', 'MongoDB'],
-    github: '#',
-    live: '#'
+    github: 'https://github.com/saravananvimal0608/ecommerce-front-end',
+    live: 'https://ecommerce-front-end-inky.vercel.app/'
   },
   {
     title: 'Todo List Application',
@@ -20,15 +20,15 @@ const projects = [
     title: 'YouTube Clone',
     description: 'Built a static YouTube clone website replicating the core UI layout, including homepage design, video thumbnails, and responsive structure using ReactJS and YouTube API for content display.',
     technologies: ['ReactJS', 'HTML5', 'CSS3', 'JavaScript'],
-    github: '#',
-    live: '#'
+    github: 'https://github.com/saravananvimal0608/youtube-clone',
+    live: 'https://myapp-gilt-six.vercel.app/'
   },
   {
     title: 'Real Estate Website',
     description: 'Developed a responsive static real estate website using reusable React components. Focused on clean UI design, property listing layout, and mobile-friendly user experience.',
     technologies: ['ReactJS', 'HTML5', 'CSS3', 'JavaScript'],
-    github: '#',
-    live: '#'
+    github: 'https://github.com/saravananvimal0608/Real-Estate-Website',
+    live: 'https://real-estate-website-13tm-git-main-saravananvimal0608s-projects.vercel.app/'
   },
 
 ];

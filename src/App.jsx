@@ -1,5 +1,7 @@
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Code, Download } from 'lucide-react';
+import TechLoader from './components/TechLoader';
 import Navbar from './components/Navbar';
 import CareerObjective from './components/CareerObjective';
 import Experience from './components/Experience';
@@ -12,7 +14,21 @@ import Contact from './components/Contact';
 import profileImage from './assets/Profile-img.jpeg';
 import resume from './assets/SARAVANAN-VIMAL-RESUME.pdf'
 import Antigravity from './components/Antigravity';
+
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <TechLoader />;
+  }
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#4E2A4F] via-[#2D1E2F] to-black relative">
       <Antigravity
@@ -63,7 +79,7 @@ function App() {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="text-xl md:text-2xl lg:text-3xl text-gray-300 font-medium mb-6"
               >
-                Mern-Stack Developer & Reactjs Developer
+                <span className="title"></span>
               </motion.p>
 
               <motion.div
